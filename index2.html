@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Murid</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f0ff;
+        }
+
+        .navbar, footer {
+            background: #6f42c1;
+        }
+
+        .hero {
+            padding: 120px 0 80px;
+        }
+
+        .hero img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        h2 {
+            color: #6f42c1;
+        }
+
+        .card {
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .btn-ungu {
+            background: #6f42c1;
+            color: white;
+        }
+
+        .btn-ungu:hover {
+            background: #56329b;
+            color: white;
+        }
+
+        .nav-pills .nav-link {
+            color: #6f42c1;
+        }
+
+        .nav-pills .nav-link.active {
+            background: #6f42c1;
+        }
+
+        footer {
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+
+        <a class="navbar-brand" href="#beranda">
+            Profil Saya
+        </a>
+
+        <button class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#beranda">
+                        Beranda
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#tentang">
+                        Tentang Saya
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#jurusan">
+                        Jurusan
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#denah">
+                        Denah
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= BERANDA ================= -->
+
+<section id="beranda" class="hero">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-7">
+
+                <h1>
+                    Halo, Perkenalkan Saya 
+                    <span style="color:#6f42c1;">
+                        Rizka Khairuna
+                    </span>
+                </h1>
+
+                <p>
+                    Saya adalah siswi jurusan Rekayasa Perangkat Lunak
+                    yang tertarik dengan pemrograman dan teknologi.
+                </p>
+
+                <a href="#tentang" class="btn btn-ungu">
+                    Tentang Saya
+                </a>
+
+            </div>
+
+            <div class="col-md-5 text-center">
+
+                <!-- GANTI DENGAN FOTO KAMU -->
+                <img src="img/foto-saya.jpg"
+                     alt="Foto Saya">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TENTANG SAYA ================= -->
+
+<section id="tentang" class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Tentang Saya
+        </h2>
+
+        <div class="card p-4">
+
+            <p>
+                <b>Nama:</b> RIZKA KHAIRUNA
+            </p>
+
+            <p>
+                <b>Kelas:</b> XI RPL 4
+            </p>
+
+            <p>
+                <b>Umur:</b> 16 Tahun
+            </p>
+
+          <p>
+                <b>TTL:</b> Medan, 07 - Oktober - 2010
+            </p>
+
+          <p>
+                <b>Hobi:</b> Membaca, Menonton, Menyanyi, Mendengarkan Musik, dan Travelling
+            </p>
+          
+            <p>
+                <b>Cita-Cita:</b> Penulis, Pengusaha Sukses, dan Main didunia Perfilm-man
+            </p>
+
+            <p>
+                <b>Alamat:</b> Jl. Jati Gg. Jati 100, Sei Mencirim 
+            </p> <br> <br>
+
+            <h5>Keahlian</h5>
+
+            <p>HTML & CSS</p>
+
+            <div class="progress mb-3">
+                <div class="progress-bar"
+                     style="width:80%; background:#6f42c1;">
+                    80%
+                </div>
+            </div>
+
+            <p>JavaScript</p>
+
+            <div class="progress mb-3">
+                <div class="progress-bar"
+                     style="width:60%; background:#6f42c1;">
+                    50%
+                </div>
+            </div>
+
+            <p>PHP & MySQL</p>
+
+            <div class="progress">
+                <div class="progress-bar"
+                     style="width:70%; background:#6f42c1;">
+                    70%
+                </div>
+            </div>
+
+          <p>GIT / GITHUB</p>
+
+            <div class="progress mb-3">
+                <div class="progress-bar"
+                     style="width:80%; background:#6f42c1;">
+                    75%
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= JURUSAN ================= -->
+
+<section id="jurusan" class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Jurusan
+        </h2>
+
+
+        <!-- TOMBOL JURUSAN -->
+
+        <ul class="nav nav-pills justify-content-center mb-4">
+
+            <li class="nav-item">
+                <button class="nav-link active"
+                        data-bs-toggle="pill"
+                        data-bs-target="#rpl">
+                    RPL
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link"
+                        data-bs-toggle="pill"
+                        data-bs-target="#dkv">
+                    DKV
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link"
+                        data-bs-toggle="pill"
+                        data-bs-target="#peksos">
+                    PEKSOS
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link"
+                        data-bs-toggle="pill"
+                        data-bs-target="#tkj">
+                    TKJ
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link"
+                        data-bs-toggle="pill"
+                        data-bs-target="#animasi">
+                    ANIMASI
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pspt">
+                    PSPT
+                </button>
+            </li>
+
+        </ul>
+
+
+        <!-- ISI JURUSAN -->
+
+        <div class="tab-content">
+
+
+            <!-- RPL -->
+
+            <div class="tab-pane fade show active" id="rpl">
+
+                <div class="card p-3">
+
+                    <img src="img/rpl.jpg"
+                         class="img-fluid mb-3"
+                         alt="RPL">
+
+                    <h3>Rekayasa Perangkat Lunak</h3>
+
+                    <h5>Visi</h5>
+
+                    <p>
+                        Menjadi program keahlian yang menghasilkan
+                        lulusan kompeten dalam bidang perangkat lunak
+                        dan teknologi digital.
+                    </p>
+
+                    <h5>Misi</h5>
+
+                    <ul>
+                        <li>Meningkatkan kemampuan pemrograman.</li>
+                        <li>Mengembangkan kemampuan membuat aplikasi.</li>
+                        <li>Meningkatkan kreativitas dan keterampilan teknologi.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- DKV -->
+
+            <div class="tab-pane fade" id="dkv">
+
+                <div class="card p-3">
+
+                    <img src="img/dkv.jpg"
+                         class="img-fluid mb-3"
+                         alt="DKV">
+
+                    <h3>Desain Komunikasi Visual</h3>
+
+                    <h5>Visi</h5>
+
+                    <p>
+                        Menghasilkan lulusan kreatif dan kompeten
+                        dalam bidang desain komunikasi visual.
+                    </p>
+
+                    <h5>Misi</h5>
+
+                    <ul>
+                        <li>Mengembangkan kreativitas dalam desain.</li>
+                        <li>Meningkatkan kemampuan membuat karya visual.</li>
+                        <li>Menggunakan teknologi dalam bidang desain.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- PEKSOS -->
+
+            <div class="tab-pane fade" id="peksos">
+
+                <div class="card p-3">
+
+                    <img src="img/peksos.jpg"
+                         class="img-fluid mb-3"
+                         alt="PEKSOS">
+
+                    <h3>Pekerjaan Sosial</h3>
+
+                    <h5>Visi</h5>
+
+                    <p>
+                        Menghasilkan lulusan yang memiliki kompetensi
+                        dalam pelayanan dan pendampingan sosial.
+                    </p>
+
+                    <h5>Misi</h5>
+
+                    <ul>
+                        <li>Meningkatkan kepedulian terhadap masyarakat.</li>
+                        <li>Mengembangkan keterampilan pelayanan sosial.</li>
+                        <li>Membentuk sikap profesional dan bertanggung jawab.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- TKJ -->
+
+            <div class="tab-pane fade" id="tkj">
+
+                <div class="card p-3">
+
+                    <img src="img/tkj.jpg"
+                         class="img-fluid mb-3"
+                         alt="TKJ">
+
+                    <h3>Teknik Komputer dan Jaringan</h3>
+
+                    <h5>Visi</h5>
+
+                    <p>
+                        Menghasilkan lulusan yang kompeten dalam
+                        bidang komputer dan jaringan.
+                    </p>
+
+                    <h5>Misi</h5>
+
+                    <ul>
+                        <li>Meningkatkan kemampuan instalasi jaringan.</li>
+                        <li>Mempelajari perangkat komputer dan jaringan.</li>
+                        <li>Meningkatkan kemampuan teknologi.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- ANIMASI -->
+
+            <div class="tab-pane fade" id="animasi">
+
+                <div class="card p-3">
+
+                    <img src="img/animasi.jpg"
+                         class="img-fluid mb-3"
+                         alt="Animasi">
+
+                    <h3>Animasi</h3>
+
+                    <h5>Visi</h5>
+
+                    <p>
+                        Menghasilkan lulusan kreatif dan kompeten
+                        dalam bidang animasi dan media digital.
+                    </p>
+
+                    <h5>Misi</h5>
+
+                    <ul>
+                        <li>Mengembangkan kemampuan membuat animasi.</li>
+                        <li>Meningkatkan kreativitas dan kemampuan visual.</li>
+                        <li>Menggunakan teknologi dalam pembuatan karya.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- PSPT -->
+
+            <div class="tab-pane fade" id="pspt">
+
+                <div class="card p-3">
+
+                    <img src="img/pspt.jpg"
+                         class="img-fluid mb-3"
+                         alt="PSPT">
+
+                    <h3>Produksi dan Teknologi Media</h3>
+
+                    <h5>Visi</h5>
+
+                    <p>
+                        Menghasilkan lulusan yang kompeten dalam
+                        produksi dan teknologi media.
+                    </p>
+
+                    <h5>Misi</h5>
+
+                    <ul>
+                        <li>Meningkatkan kemampuan produksi media.</li>
+                        <li>Mengembangkan kreativitas dalam bidang media.</li>
+                        <li>Menggunakan teknologi untuk menghasilkan karya.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DENAH ================= -->
+
+<section id="denah" class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Denah & Rute
+        </h2>
+
+        <div class="card p-3">
+
+            <h5>
+                Rute Rumah ke Sekolah
+            </h5>
+
+            <p>
+                Rumah → Sekolah
+            </p>
+
+            <iframe
+                src="https://www.google.com/maps?q=Jl.%20Patriot%20No.%2020,%20Sunggal&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+
+            <br>
+
+            <a href="https://www.google.com/maps/dir/?api=1&origin=Jl.%20Setia%20Gg.%20Rukun%20No.%201A&destination=Jl.%20Patriot%20No.%2020,%20Sunggal"
+               target="_blank"
+               class="btn btn-ungu">
+
+                Lihat Rute Rumah → Sekolah
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="text-center">
+
+    <p class="mb-0">
+        © 2026 Rizka Khairuna
+    </p>
+
+</footer>
+
+
+<!-- Bootstrap JavaScript -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
